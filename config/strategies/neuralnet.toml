@@ -1,0 +1,14 @@
+threshold_buy = 0.75
+threshold_sell = -0.75
+method = 'adadelta'
+
+learning_rate = 1.2
+momentum = 0.9
+decay = 0.10
+stoploss_enabled = true
+stoploss_threshold = 0.15
+hodl_threshold = 1
+price_buffer_len = 100
+min_predictions = 1000
+
+#15 min candle - 10 Warmup
